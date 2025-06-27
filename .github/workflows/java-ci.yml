@@ -24,7 +24,7 @@ jobs:
       run: jar -cfm Assistant2.jar Manifest.txt -C out .
 
     - name: Upload a Build Artifact
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: Assistant2
         path: Assistant2.jar
